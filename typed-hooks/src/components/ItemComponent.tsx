@@ -1,6 +1,6 @@
 import React, { useReducer, useState } from 'react';
 import itemReducer from './ItemReducer';
-import Item from './Item';
+import type {Item} from './Item';
 
 const ItemComponent: React.FC = () => {
   const [state, dispatch] = useReducer(itemReducer, { items: [] });

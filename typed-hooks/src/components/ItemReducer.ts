@@ -1,5 +1,5 @@
-import ItemComponentActions from "./ItemComponentActions";
-import ItemState from "./ItemState";
+import type {ItemComponentActions} from "./ItemComponentActions";
+import type {ItemState }from "./ItemState";
 
 const itemReducer = (state: ItemState, action: ItemComponentActions): ItemState => {
     switch (action.type) {

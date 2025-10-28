@@ -1,7 +1,5 @@
-import Item from './Item';
+import type {Item} from './Item';
 
-interface ItemState {
+export interface ItemState {
     items: Item[];
 }
-
-export default ItemState;
